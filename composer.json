@@ -1,0 +1,22 @@
+{
+	"name": "gigabyte/php-unittest",
+	"authors": [
+		{
+			"name": "Ahsan Habib Shaheen",
+			"email": "ahsanshaheen199@gmail.com"
+		}
+	],
+	"require": {
+		"phpunit/phpunit": "^9.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		}
+	}
+}
